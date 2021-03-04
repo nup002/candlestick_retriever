@@ -8,6 +8,8 @@ Retrieve all historical candlestick data from crypto exchange Binance and upload
 - `pyarrow`
 - `kaggle`
 
+`pyarow` must be installed from conda-forge, otherwise snappy compression is not provided:
+`conda install -c conda-forge pyarrow`
 ## Running
 
 Simply run `./main.py` to either download or update every single pair available:
